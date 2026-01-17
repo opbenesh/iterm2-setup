@@ -1,8 +1,6 @@
-# iTerm2 Ultimate Setup
+# My iTerm2 Setup
 
-A comprehensive iTerm2 development environment configuration featuring Oh My Zsh, modern CLI tools, and the Dracula theme.
-
-## What's Included
+## Content
 
 ### Applications & Tools
 - **iTerm2** - Terminal emulator
@@ -25,13 +23,11 @@ A comprehensive iTerm2 development environment configuration featuring Oh My Zsh
 - `gc` → `git commit -m`
 - `c` → `code .`
 - `..` → `cd ..`
-- `fix` → thefuck command correction
+- `fix` → sfw thefuck command correction
 
 ## Prerequisites
 
-- macOS (10.15 or later recommended)
-- [Homebrew](https://brew.sh/) installed
-- Internet connection for downloading packages
+macOS + [Homebrew](https://brew.sh/)
 
 ## Installation
 
@@ -58,26 +54,6 @@ chmod +x install.sh
 5. Configures fzf integration
 6. Backs up your existing `.zshrc`
 7. Creates and sources custom configuration from `.zshrc.custom`
-
-## Customization
-
-### Modifying Aliases
-Edit the `zshrc.custom` file and add your own aliases:
-```bash
-alias myalias="my command"
-```
-
-### Changing Theme
-Edit line 5 in `zshrc.custom`:
-```bash
-ZSH_THEME="your-theme-name"
-```
-
-### Adding More Plugins
-Edit line 8 in `zshrc.custom`:
-```bash
-plugins=(git your-plugin zsh-syntax-highlighting zsh-autosuggestions)
-```
 
 ## Updating
 
@@ -117,7 +93,3 @@ source ~/.zshrc
 ## License
 
 MIT License - See [LICENSE](LICENSE) file for details
-
-## Contributing
-
-Feel free to submit issues or pull requests if you have suggestions for improvements!
